@@ -5,3 +5,47 @@ body{
 .row .col{
 	outline: 1px solid #999999;
 }
+
+/*Inicio Header*/
+header {
+	background-color: #ffffff;
+}
+.menu ul {
+	margin: 5px 0;
+}
+.menu ul li {
+	display: inline-block;
+}
+.menu ul li a {
+	color: #7d7d7d;
+	text-transform: uppercase;
+	padding: 5px 20px;
+}
+.menu ul li:hover a {
+	color: #484858;
+	border-top: 3px solid rgba(72,72,88,0.8);
+}
+.bar-themes{
+	background-color: rgba(65,64,96,1);
+}
+.bar-themes ul li {
+	display: inline-block;
+}
+.bar-themes ul li a{
+	color: #fff;
+	font-size: 14px;
+}
+.bar-themes ul li:hover a{
+	color: #fff;
+	border-top: none;
+}
+
+
+.box-primary {}
+.box-secondary {}
+.box-small{}
+.text-date {}
+.title-primary {}
+.title-secondary {}
+.box-general {}
+.researchers {}
