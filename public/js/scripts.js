@@ -4,3 +4,4 @@ $('.button-collapse').sideNav({
       closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
       draggable: true
  });
+$('select').material_select();
