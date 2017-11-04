@@ -1,15 +1,148 @@
 body{
-	background-color: #ededed;
+	background-color: #ffffff;
+	font-size: 16px;
 }
 
 .row .col{
-	outline: 1px solid #999999;
+	/*outline: 1px solid #999999;*/
+}
+
+/*Colores*/
+/*
+Texto títulos rgba(0,25,43,1);
+*/
+
+/*Clases generales*/
+.title-primary {
+	text-align: center;
+	color: rgba(0,25,43,1);
+	font-family: 'allerbold';
+	font-size:3.750em;
+	margin: 120px 0 70px 0;
+}
+	.title-primary:after{
+		content: '';
+		margin: 0 auto;
+		background-color:rgba(0,25,43,0.4);
+		height: 1px;
+		width: 30%;
+		max-width: 90px;
+		display: block;
+		position: relative;
+		top: 30px;
+	}
+
+.title-secondary {}
+
+.box-general {
+	background-color: #fcfbff;
+	/*background-color: #ededed;*/
+	border-top: 3px solid rgba(198,190,216,0.4);
+	padding: 1em;
+	margin: 0 1em 1em 0;
+	box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.1);
+	transition:all 0.1s ease-in-out;
+}
+.box-general:hover{
+	background-color: rgba(245,243,250,0.8);
+	box-shadow: 0px 10px 30px 2px rgba(0,0,0,0.15)
+}
+
+.box-general a h3{
+	line-height: 1.2em;
+	font-size: 1.250em;
+	color: rgba(92,135,186,1);
+	margin: 0.3em 0 0.3em 0;
+	transition: all 0.2s ease-in-out;
+}
+.box-general a:hover h3{
+	color: rgba(92,135,186,0.8);
+}
+
+.name-investigador h4{
+	margin:0;
+	display: inline-block;
+	font-size: 0.875em;
+	color: rgba(88,86,153,1);
+}
+.name-investigador h4:first-child{}
+.name-investigador h4:after{
+	content: '//';
+}
+
+.name-investigador h4:last-child{}
+.name-investigador h4:last-child:after{
+	content: '';
+}
+
+
+.name-investigador h4 a{	
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;	
+	color: rgba(88,86,153,1);
+}
+.name-investigador h4 a:hover{	
+	text-decoration: underline;
+}
+
+/*Clases generales de noticias*/
+.box-primary {}
+.box-secondary {}
+.box-small{}
+
+
+.text-date {
+	color: #999999;
+	font-size:0.750em;
+	padding: 1em 0;	
+}
+.link-more{
+	text-align: right;
+	margin-bottom: 20px;
+	margin-right:20px;
+}
+.link-more a{
+	display: inline-block;
+	color: rgba(65,64,96,1);
+}
+.link-more a:hover{
+	display: inline-block;
+	color: rgba(65,64,96,0.8);
+}
+.link-more a i{
+	position: relative;
+	right: 5px;
+	top: 7px;
+	font-weight: lighter;
+	transition: all 0.2s ease-in-out;
+}
+.link-more a:hover i{
+	right: -5px;
+}
+.researchers {}
+
+.temas-box{
+	color: rgba(65,64,96,1);
+	background-color: rgba(88,86,153,0.2);
+	border:1px solid rgba(65,64,96,0.1);
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	display: inline-block;
+	padding: 0px 5px;
+	font-size: 0.813em;
 }
 
 /*Inicio Header*/
 header {
 	background-color: #ffffff;
 }
+.box-logo{
+	text-align: center;
+}
+.logo-ciup{
+	margin: 2em 0 1.5em 0;
+}
+
 .menu ul {
 	margin: 5px 0;
 }
@@ -38,14 +171,30 @@ header {
 .bar-themes ul li:hover a{
 	color: #fff;
 	border-top: none;
+	transition: all 0.3s ease-in-out;
+}
+.bar-themes ul li a:hover{
+	color: rgba(255,255,255,.5);
+	border-top: none;
 }
 
+.button-collapse{
+	position: absolute;
+	right: 20px;
+	top:60px;
+	margin-bottom: 1em;
+}
+.button-collapse i{
+	font-size: 2em;
+	color:#414060;
+}
 
-.box-primary {}
-.box-secondary {}
-.box-small{}
-.text-date {}
-.title-primary {}
-.title-secondary {}
-.box-general {}
-.researchers {}
+/*Libros*/
+.box-img-libros{
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.box-img-libros img{
+	max-width: 100%;
+}
