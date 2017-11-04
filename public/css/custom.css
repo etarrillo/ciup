@@ -11,8 +11,42 @@ body{
 /*
 Texto títulos rgba(0,25,43,1);
 */
-
+.container-fluid{
+	width: 95%;
+	margin: 0 auto;	
+}
 /*Clases generales*/
+.historia{
+	font-family: 'Roboto', sans-serif;
+
+}
+.historia h5{
+	font-size: 1.250em;
+	color:#00192b;
+	line-height: 1.5em;
+}
+.mision-vision p,
+.historia p{
+	font-size: 1em;
+	color: #484858;
+	line-height: 2em;
+}
+
+.box-mision-vision{
+	border: 1px solid #585699;
+	padding: 0.5em 2em;
+	margin: 2em 2em 4em 2em;
+	position: relative;
+}
+.box-mision-vision h2{
+	padding: 0.3em;
+	position: absolute;
+	font-size: 2.500em;
+	color: #585699;
+	background-color: #ffffff;
+	top: -1.9em;
+	font-family: 'allerregular';
+}
 .title-primary {
 	text-align: center;
 	color: rgba(0,25,43,1);
@@ -32,7 +66,13 @@ Texto títulos rgba(0,25,43,1);
 		top: 30px;
 	}
 
-.title-secondary {}
+.title-secondary{
+	font-family: 'allerregular';
+	color: #585699;
+	padding-bottom: 0.2em;
+	font-size: 1.875em;
+	border-bottom: 1px solid #585699;
+}
 
 .box-general {
 	background-color: #fcfbff;
@@ -136,47 +176,73 @@ Texto títulos rgba(0,25,43,1);
 header {
 	background-color: #ffffff;
 }
-<<<<<<< HEAD
+
 .box-logo{
 	text-align: center;
 }
 .logo-ciup{
-	margin: 2em 0 1.5em 0;
+	margin: 0; /*tener en cuenta para el responsive*/
 }
 
-=======
 .brand-ciup {
 	margin: 20px 0;
 }
 .main-menu {
+	text-align: right;
 	margin: 25px 0 0;
 }
->>>>>>> a5b28d4927c9ddc6ee42f8646b7a77d010f59bc2
+.main-menu ul li{
+	border-top: 1px solid #cccccc;
+	margin-left: -4px;
+}
+.main-menu ul li:last-child{
+	border-top: 1px solid transparent;
+}
+.main-menu ul li a {
+	color: #7d7d7d;
+	font-size: 0.750em;
+	text-transform: uppercase;
+	padding: 5px 20px;
+	border-top: 3px solid rgba(72,72,88,0);
+	transition: all 0.3s ease-in-out;
+}
+.main-menu ul li:hover a {
+	color: #484858;
+	border-top: 3px solid rgba(72,72,88,0.8);
+}
+
+
 .menu ul {
 	margin: 5px 0;
 }
 .menu ul li {
 	display: inline-block;
+	margin-left: -4px;;
 }
 .menu ul li a {
 	color: #7d7d7d;
+	font-size: 0.750em;
 	text-transform: uppercase;
 	padding: 5px 20px;
 }
-.menu ul li:hover a {
+.main-menu ul li:hover a,
+.main-menu ul li a.active_link {
 	color: #484858;
 	border-top: 3px solid rgba(72,72,88,0.8);
 }
-.menu ul li:nth-child(8) a{
+.main-menu ul li:last-child a{
 	color: #bcd8f9;
+	border-top: 3px solid rgba(72,72,88,0);
 }
-.menu ul li:nth-child(8) a i {
+.main-menu ul li:last-child a i {
 	font-size: 2.188em;
 }
-.menu ul li:nth-child(8):hover a {
+.main-menu ul li:last-child:hover a {
 	border-top: none;
 	color: #5c87ba;
+	border-top: 3px solid rgba(72,72,88,0);
 }
+
 .bar-themes{
 	background-color: rgba(65,64,96,1);
 }
@@ -209,7 +275,6 @@ header {
 	color:#414060;
 }
 
-<<<<<<< HEAD
 /*Libros*/
 .box-img-libros{
 	position: relative;
@@ -219,7 +284,6 @@ header {
 .box-img-libros img{
 	max-width: 100%;
 }
-=======
 .box-primary {}
 .box-secondary {}
 .box-small{}
@@ -244,7 +308,7 @@ footer ul li a, footer p{
 	font-size: 1em;
 	line-height: 28px;
 }
-.contacto, .correo, .direccion {
+.contacto, .correo, .direccion, .correo-investigador {
 	width: 100%;
     height: 25px;
     line-height: 25px;
@@ -263,6 +327,10 @@ footer ul li a, footer p{
 }
 .direccion {
 	background-position: 0 -64px;
+}
+.correo-investigador {
+	background-position: 0 -93px;
+	color: #5c87ba;
 }
 .direccion span {
 	display: block;
@@ -340,4 +408,149 @@ footer ul li a, footer p{
 	margin: 0px;
 }
 /*Fin footer*/
->>>>>>> a5b28d4927c9ddc6ee42f8646b7a77d010f59bc2
+
+/*Nosotros*/
+.header-nosotros{}
+.header-nosotros img{
+	width: 100%;
+	height: auto;
+	vertical-align: middle;
+	position: relative;;
+}
+.content-nosotros{
+	border:1px solid #d0d7de;
+	width: 80%;
+	margin: -100px auto 0 auto;
+	background:#ffffff;
+	z-index:9;
+	position:relative;
+}
+.content-nosotros .tabs{
+	margin-top: -70px;
+}
+.tabs{
+	text-align: right;
+}
+.tabs .tab a{
+	font-family: 'allerregular';
+	font-size: 1em;
+	color:#bcc6d0;
+	transition: all 0.3s ease-in-out;
+	border-top:3px solid transparent;
+	text-transform: capitalize;
+}
+.tabs .tab a.active,
+.tabs .tab a:hover{
+	color:#414060;
+	border-top:3px solid #8d8ca0;
+}
+.tabs .indicator{
+	display: none;
+}
+.box-user-ciup{
+	padding: 2px;
+	text-align: center;
+	max-width: 170px;
+	margin: 0 auto;
+}
+.box-user-ciup .box-img-user-ciup{
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+	border:3px solid #ffffff;
+	box-shadow: 0px 0px 0px 1px #d4dae1;
+	overflow: hidden;
+}
+.box-user-ciup .box-img-user-ciup img{
+}
+.box-user-ciup .date-user-ciup{}
+
+.box-user-ciup .date-user-ciup h2,
+.box-user-ciup .date-user-ciup h3,
+.box-user-ciup .date-user-ciup h4{
+	margin: 0.5em 0;
+}
+
+.box-user-ciup .date-user-ciup h2{
+	color: #414060;
+	font-family: 'allerbold';
+	font-size: 0.875em;
+}
+.box-user-ciup .date-user-ciup h3{
+	color: #7f7f7f;
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.750em;	
+}
+.box-user-ciup .date-user-ciup h4{
+	color: #5c87ba;
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.750em;	
+}
+.box-user-ciup .date-user-ciup a:hover{
+	text-decoration: underline;
+}
+
+/*Areas de investigacion*/
+.box-img{}
+.box-img img{
+	width: 100%;
+	height: auto;
+}
+.box-area{
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.box-text-areas{
+	width: 85%;
+	background-color: #ffffff;
+	display: block;
+	padding: 0.5em;
+	position: absolute;
+	top:80%;
+	transition: all 0.3s ease-in-out;
+	height: 100%;
+}
+.box-area:hover .box-text-areas{
+	top: 40%;
+	height: 100%;
+}
+.box-text-areas h3{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size:1em;
+	color: #484858;
+	position: relative;
+	width: 100%;
+	display: block;
+	padding-bottom: 0.5em;
+}
+
+.box-text-areas h3:after{
+	content:'';
+	display: block;
+	background-color: #d3d3d7;
+	height: 2px;
+	width: 30%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.box-text-areas p{
+	height: 1px;
+	overflow: hidden;
+	color: #484858;
+	font-family: 'Roboto', sans-serif;
+	font-size : 0.875em;
+	display: none;
+	transition: all 0.1s ease-in-out;
+	background-color: white;
+}
+.box-area:hover .box-text-areas p{
+	display: block;
+	overflow: visible;
+}
