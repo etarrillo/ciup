@@ -149,6 +149,9 @@ Texto títulos rgba(0,25,43,1);
 .box-primary h1 a, .box-secondary h2 a, .box-small h3 a{
 	color: #484858;
 }
+.box-primary h1 a:hover, .box-secondary h2 a:hover, .box-small h3 a:hover{
+	color: rgba(88,86,153,1);
+}
 .box-secondary p {
 	color: #484858;
 	font-size: 0.875em;
@@ -157,12 +160,12 @@ Texto títulos rgba(0,25,43,1);
 .box-primary h1{
 	font-size: 2.375em;
 	line-height: 1.211em;
-	margin: 12px 0 14px;
+	margin: 5px 0 14px;
 }
 .box-secondary h2, .box-small h3 {
 	font-size: 1.5em;
 	line-height: 1.250em;
-	margin: 16px 0 14px;
+	margin: 5px 0 14px;
 }
 .text-date {
 	color: #999999;
@@ -218,6 +221,7 @@ header {
 }
 .logo-ciup{
 	margin: 0; /*tener en cuenta para el responsive*/
+	width: 50%;
 }
 
 .brand-ciup {
@@ -320,9 +324,15 @@ header {
 .box-img-libros img{
 	max-width: 100%;
 }
-.box-primary {}
-.box-secondary {}
-.box-small{}
+.box-primary {
+	min-height: 220px;
+}
+.box-secondary {
+	min-height: 346px;;
+}
+.box-small{
+	min-height: 217px;
+}
 .text-date {}
 .title-primary {}
 .title-secondary {}
@@ -332,6 +342,7 @@ header {
 /*Inicio footer*/
 footer {
 	background-color: rgba(242, 244, 248, 1);
+	    padding-top: 15px;
 }
 footer h5 {
 	color: #414060;
@@ -378,9 +389,9 @@ footer ul li a, footer p{
 	display: inline-block;
 }
 .facebook, .twitter, .gmail, .linkedin {
-	width: 45px;
-    height: 45px;
-    line-height: 45px;
+	width: 40px;
+    height: 40px;
+    line-height: 40px;
     background: url(../img/sprite-redes.png) 0 0;
     background-repeat: no-repeat;
     display: inline-block;
