@@ -567,8 +567,8 @@ footer ul li a, footer p{
 .box-user-ciup .date-user-ciup h2,
 .box-user-ponentes h2{
 	color: #414060;
-	font-family: 'allerbold';
 	font-size: 0.875em;
+	    font-weight: bold;
 }
 .box-user-ciup .date-user-ciup h3{
 	color: #7f7f7f;
