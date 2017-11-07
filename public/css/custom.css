@@ -627,6 +627,8 @@ footer ul li a, footer p{
 .box-img img{
 	width: 100%;
 	height: auto;
+	display: inline-block;
+	vertical-align: middle;
 }
 .box-area{
 	position: relative;
@@ -897,6 +899,14 @@ footer ul li a, footer p{
 .header-publicaciones{
 	background-color: #f2f4f8;
 }
+.header-publicaciones div{}
+.header-publicaciones div img{
+	padding: 1em;
+	height: 100%;
+	width: auto;
+	max-width: 100%;
+	position: relative;
+}
 .title-publication h1{
 	font-family: 'allerbold';
 	color: #474747;
@@ -922,8 +932,8 @@ footer ul li a, footer p{
 	font-size: 1.313em;
 }
 .redes-publication .redes{
-	margin-top: 4%;
-	margin-bottom: 2%;
+	margin-top: 2.5%;
+	margin-bottom: 1.5%;
 }
 .date-text-publication p{
 	color: 414060;
@@ -945,6 +955,8 @@ footer ul li a, footer p{
 .box-publicaciones ul li{
 	position: relative;
 	font-family: 'allerregular';
+	line-height: 22px;
+	margin-bottom: 0.5em;
 }
 
 .box-publicaciones ul li:after{
@@ -1145,6 +1157,14 @@ footer ul li a, footer p{
 }
 
 /*Iniciativas*/
+.box-iniciativas{
+	background-color: white;
+	padding: 1em 0 0.5em 0;
+	transition: all 0.3s ease-in-out;
+}
+.box-iniciativas:hover{
+	background-color: #f9f9f9;
+}
 .title-iniciativas{
 	border-bottom: 1px solid #c6bed8;
 	position: relative;
@@ -1157,11 +1177,19 @@ footer ul li a, footer p{
 }
 .title-iniciativas a{
 	color: #414060;
+	transition: all 0.3s ease-in-out;
+}
+.title-iniciativas a:hover{
+	color: #5e5d8b;
 }
 .title-iniciativas a i{
 	position: absolute;
 	right: 10px;
 	bottom: 20px;
+	transition: all 0.3s ease-in-out;
+}
+.title-iniciativas a:hover i{
+	right: 0;
 }
 
 .text-iniciativas{}

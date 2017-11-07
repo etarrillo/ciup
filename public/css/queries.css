@@ -1,5 +1,5 @@
 @media only screen and (min-width: 320px) {
-  body{background-color: green}
+  /*body{background-color: green}*/
   .title-primary{
     font-size: 2.8em;
   }
@@ -38,21 +38,47 @@
   footer{
     text-align: center;
   }
+
+  /*Nosotros*/
+  .header-nosotros{
+    display: none;
+  }
+  .content-nosotros{
+    margin:0 auto;
+    width: 95%;
+  }
+  .content-nosotros .tabs{
+    margin-top: 30px;
+  }
+  .box-mision-vision{
+    margin: 70px 5px 5px 5px;
+    padding: 0 0.5em;
+  }
+  .box-area{
+    margin-bottom: 1em;
+  }
+  .box-area:hover .box-text-areas{
+    top: 0;
+    height:100%;
+  }
 }
 @media only screen and (min-width: 420px) {
-  body{background-color: yellow}
+  /*body{background-color: yellow}*/
 }
 @media only screen and (min-width: 480px) {
-  body{background-color: red;}
+  /*body{background-color: red;}*/
   .logo-ciup{
     max-width: 100%;
   }
   .brand-ciup{
     margin:20px 0 10px 0;
   }
+  .box-img-libros{
+    height: auto;
+  }
 }
 @media only screen and (min-width: 600px) {
-  body{background-color: orange}
+  /*body{background-color: orange}*/
   .logo-ciup{
     width: 100%;
   }
@@ -61,22 +87,26 @@
   }
 }
 @media only screen and (min-width: 690px) {
-  body{background-color: purple}
+  /*body{background-color: purple}*/
 }
 @media only screen and (min-width: 780px) {
-  body{background-color: blue}
+  /*body{background-color: blue}*/
 }
 @media only screen and (min-width: 810px) {
-  body{background-color: maroon}
+  /*body{background-color: maroon}*/
   .logo-ciup{
     max-width: 100%;
   }
   .main-menu{
     margin: 25px 0 0;
   }
+  .box-img-libros{
+    max-height: 270px;
+  }
+  
 }
 @media only screen and (min-width: 900px) {
-  body{background-color: skyblue}
+  /*body{background-color: skyblue}*/
   .logo-ciup{
     max-width: 260px;
   }
@@ -86,9 +116,34 @@
   .menu ul li a{
     padding: 5px 10px;
   }
+  /*Nosotros*/
+  .header-nosotros{
+    display: block;
+  }
+  .content-nosotros{
+    margin:-100px auto;
+    width: 95%;
+  }
+  .content-nosotros .tabs{
+    margin-top: -70px;
+  }
+  .box-mision-vision{
+    margin: 70px 5px 5px 5px;
+    padding: 0 1.5em;
+  }
+  .box-area{
+    margin-bottom: 1em;
+  }
+  .box-area:hover .box-text-areas{
+    top: 0;
+    height:100%;
+  }
+  .box-img{
+    height: 230px;
+  }
 }
 @media only screen and (min-width: 1150px) {
-  body{background-color: olive}
+  /*body{background-color: olive}*/
   .logo-ciup{
     max-width: 260px;
   }
@@ -98,9 +153,31 @@
   .menu ul li a{
     padding: 5px 15px;
   }
+  /*Nosotros*/
+  .header-nosotros{
+    display: block;
+  }
+  .content-nosotros{
+    margin:-100px auto;
+    width: 95%;
+  }
+  .content-nosotros .tabs{
+    margin-top: -70px;
+  }
+  .box-mision-vision{
+    margin: 70px 5px 5px 5px;
+    padding: 0 1.5em;
+  }
+  .box-area{
+    margin-bottom: 1em;
+  }
+  .box-area:hover .box-text-areas{
+    top: 0;
+    height:100%;
+  }
 }
 @media only screen and (min-width: 1200px) {
-  body{background-color: peru}
+  /*body{background-color: peru}*/
   .logo-ciup{
     max-width: 260px;
   }
@@ -109,6 +186,34 @@
   }
   .menu ul li a{
     padding: 5px 20px;
+  }
+  .box-img-libros{
+    max-height: 270px;
+  }
+   /*Nosotros*/
+  .header-nosotros{
+    display: block;
+  }
+  .content-nosotros{
+    margin:-100px auto;
+    width: 95%;
+  }
+  .content-nosotros .tabs{
+    margin-top: -70px;
+  }
+  .box-mision-vision{
+    margin: 70px 5px 5px 5px;
+    padding: 0 1.5em;
+  }
+  .box-area{
+    margin-bottom: 1em;
+  }
+  .box-area:hover .box-text-areas{
+    top: 0;
+    height:100%;
+  }
+  .box-img{
+    height: 220px;
   }
 }
 
