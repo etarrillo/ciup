@@ -1048,15 +1048,15 @@ footer ul li a, footer p{
 	position: relative;
 }
 .header-investigadores h2{
-	width: 40%;
-	position: absolute; 
-	top: 20%;
-	left: 10%;
-	line-height: 39px;
-	text-shadow: 2px 2px 0px rgba(65,64,96,0.5);
-	font-size: 26px;
-	color: #ffffff;
-	font-family: 'allerbold';
+	width: 44%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    text-shadow: 2px 2px 0px rgba(65,64,96,0.5);
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 1.5em;
 }
 
 /*Investigador*/

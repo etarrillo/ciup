@@ -32,9 +32,6 @@
   .box-news{
     margin-bottom: 0.5em;
   }
-  .facebook, .twitter, .gmail, .linkedin{
-    margin: 5px;
-  }
   footer{
     text-align: center;
   }
@@ -59,12 +56,19 @@
   .main-menu{
     margin: 25px 0 0;
   }
+  /*investigadores*/
+
+  /*Fin investigadores*/
 }
 @media only screen and (min-width: 690px) {
   body{background-color: purple}
+  /*investigadores*/
+  /*fin investigadores*/
 }
 @media only screen and (min-width: 780px) {
   body{background-color: blue}
+  /*investigadores*/
+  /*fin investigadores*/
 }
 @media only screen and (min-width: 810px) {
   body{background-color: maroon}
@@ -86,6 +90,9 @@
   .menu ul li a{
     padding: 5px 10px;
   }
+  /*investigadores*/
+  
+  /*fin investigadores*/
 }
 @media only screen and (min-width: 1150px) {
   body{background-color: olive}
