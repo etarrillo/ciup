@@ -504,7 +504,11 @@ footer ul li a, footer p{
 .tabs .indicator{
 	display: none;
 }
-.box-user-ciup{
+.box-user-ponentes{
+	padding: 2px;
+    max-width: 220px;
+}
+.box-user-ciup {
 	padding: 2px;
 	text-align: center;
 	max-width: 220px;
@@ -537,7 +541,7 @@ footer ul li a, footer p{
     overflow: hidden;
 }
 
-.box-user-ciup .box-img-user-ciup{
+.box-user-ciup .box-img-user-ciup, .box-user-ponentes .box-img-user-ponentes{
 	width: 160px;
 	height: 160px;
 	border-radius: 50%;
@@ -548,7 +552,8 @@ footer ul li a, footer p{
 }
 .box-user-ciup .box-img-user-ciup img{
 }
-.box-user-ciup .date-user-ciup h2 a{
+.box-user-ciup .date-user-ciup h2 a,
+.box-user-ponentes h2 a{
 	font-size: 1em;
     color: #414060;
 }
@@ -559,7 +564,8 @@ footer ul li a, footer p{
 	margin: 0.5em 0;
 }
 
-.box-user-ciup .date-user-ciup h2{
+.box-user-ciup .date-user-ciup h2,
+.box-user-ponentes h2{
 	color: #414060;
 	font-family: 'allerbold';
 	font-size: 0.875em;
@@ -577,7 +583,21 @@ footer ul li a, footer p{
 .box-user-ciup .date-user-ciup a:hover{
 	text-decoration: underline;
 }
-
+.date-user-ponentes {
+	text-align: center;
+}
+.date-user-ponentes h2:after {
+	content: "";
+    height: 1px;
+    width: 20%;
+    display: block;
+    background-color: rgba(65,64,96,0.4);
+    margin: 10px auto 0;
+}
+.content-ponentes p{
+	margin: 25px 0 0;
+	color: #8682bd;
+}
 /*Areas de investigacion*/
 .box-img{}
 .box-img img{
@@ -885,12 +905,12 @@ footer ul li a, footer p{
 	color: 414060;
 }
 
-.box-publicaciones{
+.box-publicaciones, .box-investigador {
 	background-color: #ffffff;
 	border: 1px solid #d0d7de;
 	padding: 1em;
 }
-.box-publicaciones h3{
+.box-publicaciones h3 {
 	color: #004e90;
 	font-size: 1.375em;
 	font-family: 'allerregular';
@@ -942,9 +962,7 @@ footer ul li a, footer p{
 .dato-investigador span a span{
 	display: inline-block;
 }
-
-
-.content-text-publicaciones p{
+.content-text-publicaciones p, .content-text-investigador p{
 	font-size: 1.125em;
 	color: #484858;
 	line-height: 1.5em;
@@ -966,7 +984,20 @@ footer ul li a, footer p{
 .content-link-publicaciones a:hover{
 	background-color: rgba(188,216,249,0.8);
 }
-
+.link-evento{
+	margin: 3em 0;
+}
+.link-evento a {
+	color: #fff;
+	background-color: rgba(115,111,172,1);
+	padding: 1em 3em;
+	transition: all 0.3s ease-in-out;
+	text-transform: uppercase;
+}
+.link-evento a:hover {
+	color: #fff;
+	background-color: rgba(134,130,189,1);
+}
 .content-footer-publicaciones{
 	border-top: 1px solid #c6bed8;
 	padding: 1em 0;
@@ -1242,10 +1273,12 @@ footer ul li a, footer p{
     margin: 0 1em 1em 0;
     box-shadow: 0 0 3px rgba(0,0,0,0.1);
 }
-.dato-evento span{
+.dato-evento span, .enlace-investigador span{
 	display: inline-block;
 }
-.dato-evento .icon-fecha, .dato-evento .icon-lugar, .dato-evento .icon-correo {
+.dato-evento .icon-fecha, .dato-evento .icon-lugar,
+.dato-evento .icon-correo, .enlace-investigador .icon-cv,
+.enlace-investigador .icon-enlace{
     width: 100%;
     height: 28px;
     line-height: 28px;
@@ -1254,7 +1287,17 @@ footer ul li a, footer p{
     display: inline-block;
     margin-bottom: 1em;
     text-indent: 2.5em;
-    color: #7d7d7d;
+}
+.enlace-investigador {
+	padding: 4% 0 0;
+    border-top: 1px solid #c6bed8;
+    margin-top: 5%;
+}
+.enlace-investigador span{
+	color: #484858;
+}
+.enlace-investigador a span:hover {
+   text-decoration: underline;
 }
 .dato-evento .icon-fecha{
 	background-position: -5px -184px;
@@ -1264,6 +1307,12 @@ footer ul li a, footer p{
 }
 .dato-evento .icon-correo{
 	background-position: -5px -243px;
+}
+.enlace-investigador .icon-cv {
+	background-position: -5px -383px;
+}
+.enlace-investigador .icon-enlace{
+	background-position: -5px -415px;
 }
 .redes-evento {
 	border-top: 1px solid #c6bed8;
@@ -1290,7 +1339,6 @@ footer ul li a, footer p{
     color: #7d7d7d;
     margin: 0 15px;
 }
-
 .icon-evento-facebook {
 	background-position: -2px -269px;
 }
@@ -1308,4 +1356,13 @@ footer ul li a, footer p{
 }
 .icon-evento-imprimir {
 	background-position: -41px -342px;
+}
+.informacion-evento {
+	margin: 7% 0 4%;
+}
+.informacion-evento span {
+	color: #8682bd;
+}
+.informacion-evento span a {
+	margin-left: 20px;
 }
