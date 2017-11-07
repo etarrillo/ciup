@@ -88,13 +88,15 @@ Texto títulos rgba(0,25,43,1);
 	margin: 0 1em 1em 0;
 	box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.1);
 	transition:all 0.1s ease-in-out;
+	max-width: 1000px;	
 }
 .box-general:hover{
 	background-color: rgba(245,243,250,0.8);
 	box-shadow: 0px 10px 30px 2px rgba(0,0,0,0.15)
 }
 
-.box-general a h3{
+.box-general a h3,
+.box-general h3{
 	line-height: 1.2em;
 	font-size: 1.250em;
 	color: rgba(92,135,186,1);
@@ -109,6 +111,10 @@ Texto títulos rgba(0,25,43,1);
 	margin:0;
 	display: inline-block;
 	font-size: 0.875em;
+	color: rgba(88,86,153,1);
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;	
 	color: rgba(88,86,153,1);
 }
 .name-investigador h4:first-child{}
@@ -916,24 +922,24 @@ footer ul li a, footer p{
 .box-publicaciones ul li a:hover{
 	text-decoration:underline;
 }
-.box-publicaciones .dato-investigador>span{
+.dato-investigador>span{
 	display: block;
 	font-size: 13px;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 }
-.box-publicaciones .dato-investigador p{
+.dato-investigador p{
 	margin: 0 5px 10px 0;
 	font-size: 18px;
 	color: #484858;
 }
-.box-publicaciones .dato-investigador p a{
+.dato-investigador p a{
 	color: #484858;
 }
-.box-publicaciones .dato-investigador p a:hover{
+.dato-investigador p a:hover{
 	text-decoration: underline; 
 }
-.box-publicaciones .dato-investigador span a span{
+.dato-investigador span a span{
 	display: inline-block;
 }
 
@@ -1025,6 +1031,117 @@ footer ul li a, footer p{
 	background-color: #fff;
 	margin-top: 20px;
 
+}
+
+/*Proyecto*/
+.box-title-proyecto{
+	background-color: #414060;
+}
+.box-title-proyecto h3{
+	padding: 2em;
+	color: #ffffff;
+	font-family: 'allerregular';
+	font-size: 1.750em;
+	text-align: center;
+}
+.box-content-data{
+	background-color: #f4f2f7;
+	padding: 0.5em 0 0 0;
+	border-bottom: 1px solid #c6bed8;
+}
+
+.box-content-proyectos{
+	background-color: #ffffff;
+}
+.box-content-proyectos p{
+	font-size: 1em;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300: 
+	line-height:1.7em;
+}
+.box-content-ficha{
+	border-bottom:1px solid #c6bed8;
+}
+.box-content-ficha h4{
+	color: #8682bd;
+	font-family: 'allerregular';
+	font-size: 1.375em;
+}
+.box-content-ficha .row{
+	border-top:1px solid #c6bed8;
+	border-bottom:1px solid #c6bed8;
+}
+.box-content-status{
+	background-color: #414060;
+	text-align: center;
+	font-family: 'allerlight';
+	color: #ffffff;
+	padding: 0.3em 0;
+}
+.box-content-status-text{
+	text-align: center;
+	font-family: 'allerlight';
+	font-size: 1em;
+	color:#474747;
+}
+.box-content-status-text p a{
+	color:#474747;
+	text-decoration: underline;
+}
+
+/*Iniciativas*/
+.title-iniciativas{
+	border-bottom: 1px solid #c6bed8;
+	position: relative;
+}
+.title-iniciativas h1{
+	font-size: 2.250em;
+	color: #414060;
+	font-family: 'allerregular';
+	margin: 0.5em 0;
+}
+.title-iniciativas a{
+	color: #414060;
+}
+.title-iniciativas a i{
+	position: absolute;
+	right: 10px;
+	bottom: 20px;
+}
+
+.text-iniciativas{}
+.text-iniciativas p{
+	font-family: 'Roboto', san-serif;
+	font-weight: 300;
+	color:#474747;
+	font-size: 1.125em;
+	line-height: : 1.125em;
+}
+.box-img-iniciativas{
+	position: relative;
+	z-index: 0;
+}
+.box-img-iniciativas img{
+	width: 100%;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.btn-iniciativa{
+	font-family: 'Roboto', san-serif;
+	font-size: 0.875em;
+	color: #ffffff;
+	background-color: rgba(65,64,96,1);
+	transition: all 0.2s ease-in-out;
+	display: inline-block;
+	position: absolute;
+	z-index: 1;
+	bottom: 1em;
+	right: 1em;
+	padding: 0.7em 1em;
+}
+.btn-iniciativa:hover{
+	background-color: rgba(65,64,96,0.8);
 }
 
 /*Pager*/
