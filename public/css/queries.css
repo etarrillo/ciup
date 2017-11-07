@@ -1,0 +1,115 @@
+@media only screen and (min-width: 320px) {
+  body{background-color: green}
+  .title-primary{
+    font-size: 2.8em;
+  }
+  .logo-ciup{
+    max-width: 100%;
+  }
+  .brand-ciup{
+    margin:20px 0 10px 0;
+    text-align: left;
+  }
+  .main-menu{
+    margin: 0;
+  }
+  .button-collapse{
+    top: 50px
+  }
+  .box-primary h1{
+    font-size: 1.8em;
+  }
+
+  .box-secondary h2{
+    font-size: 1.3em;
+  }
+  .box-small h3{
+    font-size: 1em;
+  }
+  .box-general{
+    margin:0 0 1em 0;
+  }
+  .box-news{
+    margin-bottom: 0.5em;
+  }
+  .facebook, .twitter, .gmail, .linkedin{
+    margin: 5px;
+  }
+  footer{
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 420px) {
+  body{background-color: yellow}
+}
+@media only screen and (min-width: 480px) {
+  body{background-color: red;}
+  .logo-ciup{
+    max-width: 100%;
+  }
+  .brand-ciup{
+    margin:20px 0 10px 0;
+  }
+}
+@media only screen and (min-width: 600px) {
+  body{background-color: orange}
+  .logo-ciup{
+    width: 100%;
+  }
+  .main-menu{
+    margin: 25px 0 0;
+  }
+}
+@media only screen and (min-width: 690px) {
+  body{background-color: purple}
+}
+@media only screen and (min-width: 780px) {
+  body{background-color: blue}
+}
+@media only screen and (min-width: 810px) {
+  body{background-color: maroon}
+  .logo-ciup{
+    max-width: 100%;
+  }
+  .main-menu{
+    margin: 25px 0 0;
+  }
+}
+@media only screen and (min-width: 900px) {
+  body{background-color: skyblue}
+  .logo-ciup{
+    max-width: 260px;
+  }
+  .main-menu{
+    margin: 25px 0 0;
+  }
+  .menu ul li a{
+    padding: 5px 10px;
+  }
+}
+@media only screen and (min-width: 1150px) {
+  body{background-color: olive}
+  .logo-ciup{
+    max-width: 260px;
+  }
+  .main-menu{
+    margin: 25px 0 0;
+  }
+  .menu ul li a{
+    padding: 5px 15px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  body{background-color: peru}
+  .logo-ciup{
+    max-width: 260px;
+  }
+  .main-menu{
+    margin: 25px 0 0;
+  }
+  .menu ul li a{
+    padding: 5px 20px;
+  }
+}
+
+
