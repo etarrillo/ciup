@@ -1,4 +1,4 @@
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 321px) and (max-width: 479px){
   body{background-color: green}
   .title-primary{
     font-size: 2.8em;
@@ -68,6 +68,7 @@
     top: 13px;
 
 }
+<<<<<<< HEAD
 @media only screen and (min-width: 420px) {
   body{background-color: yellow}
   .title-primary {
@@ -77,6 +78,9 @@
     top: 13px;
 }
 @media only screen and (min-width: 480px) {
+=======
+@media only screen and (min-width: 480px) and (max-width: 599px){
+>>>>>>> f5c16b1457071eee9ed4da5eee1c9a97418d55a9
   body{background-color: red;}
   .logo-ciup{
     max-width: 100%;
@@ -112,7 +116,7 @@
       width: auto;
   }
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) and (max-width: 689px){
   body{background-color: orange}
   .logo-ciup{
     width: 100%;
@@ -141,25 +145,16 @@
     margin: 70px 0 25px 0;
   }
 }
-@media only screen and (min-width: 690px) {
+@media only screen and (min-width: 690px) and (max-width: 809px){
   body{background-color: purple}
 
   footer{
     text-align: left;
   }
 }
-@media only screen and (min-width: 780px) {
-  body{background-color: blue}
 
-  .title-primary {
-    margin: 80px 0 30px 0;
-  }
-  footer{
-    text-align: left;
-  }
-}
 
-@media only screen and (min-width: 810px) {
+@media only screen and (min-width: 810px) and (max-width: 899px){
   body{background-color: maroon}
   .logo-ciup{
     max-width: 100%;
@@ -173,8 +168,21 @@
   footer{
     text-align: left;
   }
+  .header-investigadores{
+    max-height: 180px;
+    min-height: 180px;
+  }
+  .info-investigador{
+    background-color: rgba(65,64,96,1);
+    width: 70%;
+    height: 100%;
+  }
+  .info-investigador h1{
+    font-size: 2em;
+    width: 85%;
+  }
 }
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 900px) and (max-width: 1199px){
   body{background-color: skyblue}
   .logo-ciup{
     max-width: 260px;
@@ -222,9 +230,23 @@
     line-height: 1.5em;
   }
   /*Fin investigadores*/
+
+  .header-investigadores{
+    max-height: 220px;
+    min-height: 200px;
+  }
+  .info-investigador{
+    background-color: rgba(65,64,96,1);
+    width: 60%;
+    height: 100%;
+  }
+  .info-investigador h1{
+    font-size: 2em;
+    width: 85%;
+  }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px){
   body{background-color: peru}
   .logo-ciup{
     max-width: 260px;
@@ -291,6 +313,23 @@
     line-height: 1.5em;
   }
   /*Fin investigadores*/
+  .info-investigador{
+    background-color: rgba(65,64,96,1);
+    width: 40%;
+    position: absolute;
+    height: 100%;
+  }
+  .info-investigador h1{
+    color: #ffffff;
+    font-size: 3.750em;
+    width: 85%;
+  }
+  .info-investigador h1:after{
+    content:"";
+    height: 1px;
+    width: 30%;
+    margin-top: 20px;
+  }
 }
 
 
