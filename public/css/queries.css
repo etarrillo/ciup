@@ -62,7 +62,8 @@
       width: auto;
   }
   .title-primary {
-    margin: 40px 0 25px 0;
+    margin: 20px 0 40px 0;
+    font-size: 2.75em;
   }
   .title-primary:after {
     top: 13px;
@@ -199,6 +200,60 @@
 
 @media only screen and (min-width: 480px) and (max-width: 599px){
   /*body{background-color: red;}*/
+  /*investigadores*/
+  .header-investigadores {
+    min-height: 300px;
+  }
+  .header-investigadores h2 {
+    width: 100%;
+    top: 19%;
+    left: 0%;
+    font-size: 1em;
+    line-height: 1.5em;
+    background: rgba(65,64,96,1);
+    padding: 4%;
+  }
+  /*fin investigadores*/
+  /*Noticias*/
+  .box-noticias-header, .box-noticias, .quot {
+    width: 100%;
+  }
+  .content-footer-publicaciones {
+    border-bottom: 1px solid #c6bed8;
+    padding: 0.5em 0 2em;
+  }
+  .content-footer-publicaciones .footer-redes-publication {
+    text-align: center;
+    margin-top: 1.5em;
+  }
+  /*evento*/
+  .header-evento {
+    padding: 20px;
+  }
+  .header-evento h2 {
+    font-size: 1.375em;
+  }
+  .header-evento h1 {
+    font-size: 3.5em;
+  }
+  .box-evento {
+    width: 100%;
+  }
+  .link-evento {
+    margin: 2em auto 1em;
+    text-align: center;
+  }
+  .redes-evento {
+        text-align: center;
+  }
+  .informacion-evento span a {
+    margin-left: 0px;
+  }
+  /*fin noticias*/
+}
+
+@media only screen and (min-width: 480px) and (max-width: 599px){
+  body{background-color: red;}
   .logo-ciup{
     max-width: 100%;
   }
@@ -224,13 +279,69 @@
     text-align: center;
   }
   .title-primary {
-    margin: 40px 0 25px 0;
+    margin: 40px 0;
+    font-size: 3em;
   }
   .title-primary:after {
     top: 13px;
   }
   .contacto, .correo, .direccion, .correo-investigador {
-      width: auto;
+    width: auto;
+  }
+  /*investigadores*/
+ .header-investigadores {
+    min-height: 325px;
+ }
+  .header-investigadores h2 {
+    width: 100%;
+    top: 30%;
+    left: 0%;
+    font-size: 1.125em;
+    line-height: 1.5em;
+    background: rgba(65,64,96,1);
+    padding: 4%;
+  }
+  /*fin investigadores*/
+  /*Noticias*/
+  .box-noticias-header, .box-noticias, .quot {
+    width: 95%;
+  }
+  .content-footer-publicaciones {
+    border-bottom: 1px solid #c6bed8;
+    padding: 0.5em 0 2em;
+  }
+  .content-footer-publicaciones .footer-redes-publication {
+    text-align: center;
+    margin-top: 1.5em;
+  }
+  /*fin noticias*/
+  /*evento*/
+  .header-evento {
+    padding: 20px;
+  }
+  .header-evento h2 {
+    font-size: 1.375em;
+  }
+  .header-evento h1 {
+    font-size: 3.5em;
+  }
+  .box-evento {
+    width: 100%;
+  }
+  .link-evento {
+    margin: 2em auto 1em;
+    text-align: center;
+  }
+  .redes-evento {
+        text-align: center;
+  }
+  .informacion-evento span a {
+    margin-left: 0px;
+  }
+  .icon-evento-facebook, .icon-evento-twitter, 
+  .icon-evento-linkedin, .icon-evento-google, 
+  .icon-evento-gmail, .icon-evento-imprimir {
+    margin: 0 10px;
   }
   .header-investigadores{
     max-height: 200px;
@@ -250,7 +361,7 @@
   }
   .content-footer-publicaciones div,
   .content-footer-publicaciones .footer-redes-publication{
-    text-align: 7nter;
+    text-align: center;
     margin: 7px 0;
   }
 }
@@ -280,7 +391,62 @@
   }
 
   .title-primary {
-    margin: 70px 0 25px 0;
+    margin: 40px 0;
+  }
+  /*investigadores*/
+  .header-investigadores h2 {
+    width: 100%;
+    top: 40%;
+    left: 0%;
+    font-size: 1.125em;
+    line-height: 1.5em;
+    background: rgba(65,64,96,1);
+    padding: 4%;
+  }
+  /*fin investigadores*/
+  /*Noticias*/
+  .box-noticias, .quot, .box-noticias-header {
+    width: 90%;
+  }
+  .content-footer-publicaciones {
+    border-bottom: 1px solid #c6bed8;
+    padding: 0.5em 0 2em;
+  }
+  .content-footer-publicaciones .footer-redes-publication {
+    text-align: center;
+  }
+  .icon-pub-redes-facebook, .icon-pub-redes-twitter,
+  .icon-pub-redes-gmail, .icon-pub-redes-linkedin{
+    margin: 0 13px;
+  }
+  /*fin noticias*/
+  /*evento*/
+  .header-evento {
+    padding: 20px;
+  }
+  .header-evento h2 {
+    font-size: 1.375em;
+  }
+  .header-evento h1 {
+    font-size: 3.5em;
+  }
+  .box-evento {
+    width: 100%;
+  }
+  .link-evento {
+    margin: 2em auto 1em;
+    text-align: center;
+  }
+  .redes-evento {
+        text-align: center;
+  }
+  .informacion-evento span a {
+    margin-left: 0px;
+  }
+  .icon-evento-facebook, .icon-evento-twitter, 
+  .icon-evento-linkedin, .icon-evento-google, 
+  .icon-evento-gmail, .icon-evento-imprimir {
+    margin: 0 10px;
   }
 
   .header-investigadores{
@@ -318,6 +484,65 @@
   .info-investigador h1{
     font-size: 2em;
     width: 85%;
+}
+  .title-primary {
+    margin: 40px 0;
+  }
+  /*investigadores*/
+  .header-investigadores {
+    min-height: 200px;
+  }
+  .header-investigadores h2 {
+    width: 55%;
+    top: -2%;
+    left: 5%;
+    font-size: 1.125em;
+    line-height: 1.5em;
+  }
+  /*fin investigadores*/
+  /*Noticias*/
+  .box-noticias, .quot, .box-noticias-header {
+    width: 80%;
+  }
+  .content-footer-publicaciones {
+    border-bottom: 1px solid #c6bed8;
+    padding: 0.5em 0 2em;
+  }
+  .content-footer-publicaciones .footer-redes-publication {
+    text-align: center;
+  }
+  .icon-pub-redes-facebook, .icon-pub-redes-twitter,
+  .icon-pub-redes-gmail, .icon-pub-redes-linkedin{
+    margin: 0 13px;
+  }
+  /*fin noticias*/
+  /*evento*/
+  .header-evento {
+    padding: 20px;
+  }
+  .header-evento h2 {
+    font-size: 1.375em;
+  }
+  .header-evento h1 {
+    font-size: 3.5em;
+  }
+  .box-evento {
+    width: 100%;
+  }
+  .link-evento {
+    margin: 2em auto 1em;
+    text-align: center;
+  }
+  .redes-evento {
+        text-align: center;
+  }
+  .informacion-evento span a {
+    margin-left: 0px;
+  }
+  .icon-evento-facebook, .icon-evento-twitter, 
+  .icon-evento-linkedin, .icon-evento-google, 
+  .icon-evento-gmail, .icon-evento-imprimir {
+    margin: 0 10px;
   }
 }
 
@@ -348,6 +573,62 @@
   .info-investigador h1{
     font-size: 2em;
     width: 85%;
+  }
+  .title-primary {
+    margin: 45px 0 40px 0;
+  }
+  /*investigadores*/
+  .header-investigadores h2 {
+    width: 50%;
+    top: -10%;
+    left: 5%;
+    font-size: 1.125em;
+    line-height: 1.5em;
+  }
+  /*Fin investigadores*/
+  /*Noticias*/
+  .box-noticias, .quot, .box-noticias-header {
+    width: 80%;
+  }
+  .content-footer-publicaciones {
+    border-bottom: 1px solid #c6bed8;
+    padding: 0.5em 0 2em;
+  }
+  .content-footer-publicaciones .footer-redes-publication {
+    text-align: center;
+  }
+  .icon-pub-redes-facebook, .icon-pub-redes-twitter,
+  .icon-pub-redes-gmail, .icon-pub-redes-linkedin{
+    margin: 0 13px;
+  }
+  /*fin noticias*/
+  /*evento*/
+  .header-evento {
+    padding: 20px;
+  }
+  .header-evento h2 {
+    font-size: 1.375em;
+  }
+  .header-evento h1 {
+    font-size: 3.5em;
+  }
+  .box-evento {
+    width: 100%;
+  }
+  .link-evento {
+    margin: 2em auto 1em;
+    text-align: center;
+  }
+  .redes-evento {
+    text-align: center;
+  }
+  .informacion-evento span a {
+    margin-left: 0px;
+  }
+  .icon-evento-facebook, .icon-evento-twitter, 
+  .icon-evento-linkedin, .icon-evento-google, 
+  .icon-evento-gmail, .icon-evento-imprimir {
+    margin: 0 5px;
   }
 }
 @media only screen and (min-width: 900px) and (max-width: 1199px){
@@ -389,12 +670,18 @@
   footer{
     text-align: left;
   }
+  .facebook, .twitter, .gmail, .linkedin{
+    margin: 0 3px;
+  }
   /*investigadores*/
+  .title-primary {
+    margin: 70px 0 40px 0;
+  }
   .header-investigadores h2 {
-    width: 45%;
-    top: 8%;
-    left: 8%;
-    font-size: 1.5em;
+    width: 50%;
+    top: 0%;
+    left: 5%;
+    font-size: 1.25em;
     line-height: 1.5em;
   }
   /*Fin investigadores*/
@@ -411,6 +698,17 @@
   .info-investigador h1{
     font-size: 2em;
     width: 85%;
+  }
+  /*evento*/
+  .informacion-evento span a {
+    margin-left: 0px;
+  }
+  .link-evento {
+    margin: 2em auto 1em;
+    text-align: center;
+  }
+  .redes-evento {
+    text-align: center;
   }
 }
 
@@ -466,11 +764,8 @@
   footer{
     text-align: left;
   }
-  .title-primary {
-    margin: 100px 0 50px 0;
-  }
-  .title-primary:after {
-    top: 20px;
+  .facebook, .twitter, .gmail, .linkedin{
+    margin: 0 12px;
   }
   /*investigadores*/
   .header-investigadores h2 {
@@ -497,6 +792,19 @@
     height: 1px;
     width: 30%;
     margin-top: 20px;
+  }
+  /*evento*/
+  .link-evento {
+    margin: 2em auto 1em;
+    text-align: center;
+  }
+  .redes-evento {
+    text-align: center;
+  }
+  .icon-evento-facebook, .icon-evento-twitter, 
+  .icon-evento-linkedin, .icon-evento-google, 
+  .icon-evento-gmail, .icon-evento-imprimir {
+    margin: 0 4px;
   }
 }
 

@@ -7,7 +7,8 @@ html{
 	background-color: #ffffff;
 	font-size: 16px;
 }
- ::-webkit-scrollbar {
+
+::-webkit-scrollbar {
     width: 0.5em;
     height: 5px;
 }
@@ -165,6 +166,7 @@ Texto títulos rgba(0,25,43,1);
 .box-news {
 	background-color: #fafafa;
 	position: relative;
+	margin-bottom: 10px;
 }
 .box-news>div{
 	overflow: hidden;
@@ -423,13 +425,13 @@ footer ul li a:hover{
     color: #7d7d7d;
 }
 .contacto {
-	background-position: 0 0;
+	background-position: 0px -2px;
 }
 .correo {
 	background-position: 0 -32px;
 }
 .direccion {
-	background-position: 0 -64px;
+	background-position: 0 -66px;
 }
 .correo-investigador {
 	background-position: 0 -93px;
@@ -457,16 +459,16 @@ footer ul li a:hover{
     margin: 0 15px;
 }
 .facebook {
-	background-position: 0 0;
+	background-position: -3px -2px;
 }
 .twitter {
-	background-position: -42px 0px;
+	background-position: -45px -2px;
 }
 .gmail {
-	background-position: 0 -40px;
+	background-position: -4px -42px;
 }
 .linkedin {
-	background-position: -42px -40px;
+	background-position: -45px -42px;
 }
 .suscripcion {
 	background-color: #fff;
@@ -740,7 +742,7 @@ footer ul li a:hover{
 	right: 15px; 
 }
 .box-news.icon-articulo-academico:after{
- 	background-position: -2px -2px;
+ 	background-position: -1px -2px;
 }
 .box-news.icon-nota:after{
  	background-position: -1px -32px;
@@ -1301,6 +1303,7 @@ footer ul li a:hover{
 .box-noticias {
 	width: 80%;
     margin: 0 auto;
+    padding-bottom: 2em;
 }
 .leyenda-imagen span {
 	color: #7d7d7d;
