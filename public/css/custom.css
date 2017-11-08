@@ -1,8 +1,11 @@
+*{
+	transition: all 0.3s ease-in-out;
+}
+
 body,
 html{
 	background-color: #ffffff;
 	font-size: 16px;
-	transition: all 0.3s ease-in-out;
 }
  ::-webkit-scrollbar {
     width: 0.5em;
@@ -154,10 +157,19 @@ Texto títulos rgba(0,25,43,1);
 /*Clases generales de noticias*/
 .box-news {
 	background-color: #fafafa;
+	position: relative;
+}
+.box-news>div{
+	overflow: hidden;
 }
 .box-news img {
 	display: inline-block;
     vertical-align: middle;
+    transition: all 0.2s ease-in;
+}
+.box-news img:hover{
+	transform: scale(1.05);
+	filter: saturate(0.5);
 }
 .box-news:hover {
 	background-color: #f3f4f6;
@@ -343,6 +355,11 @@ header {
 }
 .box-img-libros img{
 	max-width: 100%;
+	transition: all 0.2s ease-in;
+}
+.box-img-libros img:hover{
+	transform: scale(1.05);
+	filter: saturate(0.5);
 }
 .box-primary {
 	min-height: 220px;
@@ -353,11 +370,16 @@ header {
 .box-small{
 	min-height: 217px;
 }
-.text-date {}
-.title-primary {}
-.title-secondary {}
-.box-general {}
-.researchers {}
+.box-img{
+	position: relative;
+}
+.box-img img{
+	transition: all 0.2s ease-in;
+}
+.box-area:hover .box-img img{
+	transform: scale(1.05);
+	filter: saturate(0.5);
+}
 
 /*Inicio footer*/
 footer {

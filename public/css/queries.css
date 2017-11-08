@@ -1,5 +1,5 @@
 @media only screen and (min-width: 320px) {
-  /*body{background-color: green}*/
+  body{background-color: green}
   .title-primary{
     font-size: 2.8em;
   }
@@ -58,12 +58,13 @@
     top: 0;
     height:100%;
   }
+
 }
 @media only screen and (min-width: 420px) {
-  /*body{background-color: yellow}*/
+  body{background-color: yellow}
 }
 @media only screen and (min-width: 480px) {
-  /*body{background-color: red;}*/
+  body{background-color: red;}
   .logo-ciup{
     max-width: 100%;
   }
@@ -73,38 +74,62 @@
   .box-img-libros{
     height: auto;
   }
+  .box-area{
+    margin-bottom: 1em;
+  }
+  .box-area:hover .box-text-areas{
+    top: 20px;
+    height:100%;
+  }
+  .box-text-areas p{
+  }
+  .box-img{
+    height: 220px;
+  }
+
+  footer{
+    text-align: center;
+  }
 }
 @media only screen and (min-width: 600px) {
-  /*body{background-color: orange}*/
+  body{background-color: orange}
   .logo-ciup{
     width: 100%;
   }
   .main-menu{
     margin: 25px 0 0;
   }
-  /*investigadores*/
-
-  /*Fin investigadores*/
+  footer{
+    text-align: left;
+  }
+  .box-area{
+    margin-bottom: 1em;
+  }
+  .box-area:hover .box-text-areas{
+    top: 20px;
+    height:100%;
+  }
+  .box-text-areas p{
+    font-size: 12px;
+  }
+  .box-img{
+    height: 220px;
+  }
 }
 @media only screen and (min-width: 690px) {
-<<<<<<< HEAD
   body{background-color: purple}
-  /*investigadores*/
-  /*fin investigadores*/
+  footer{
+    text-align: left;
+  }
 }
 @media only screen and (min-width: 780px) {
   body{background-color: blue}
-  /*investigadores*/
-  /*fin investigadores*/
-=======
-  /*body{background-color: purple}*/
-}
-@media only screen and (min-width: 780px) {
-  /*body{background-color: blue}*/
->>>>>>> c346da0225a7c1027262e5e4afb05a6b6054b816
+  footer{
+    text-align: left;
+  }
 }
 @media only screen and (min-width: 810px) {
-  /*body{background-color: maroon}*/
+  body{background-color: maroon}
   .logo-ciup{
     max-width: 100%;
   }
@@ -114,10 +139,13 @@
   .box-img-libros{
     max-height: 270px;
   }
+  footer{
+    text-align: left;
+  }
   
 }
 @media only screen and (min-width: 900px) {
-  /*body{background-color: skyblue}*/
+  body{background-color: skyblue}
   .logo-ciup{
     max-width: 260px;
   }
@@ -146,49 +174,19 @@
     margin-bottom: 1em;
   }
   .box-area:hover .box-text-areas{
-    top: 0;
+    top: 30px;
     height:100%;
   }
   .box-img{
-    height: 230px;
+    height: 220px;
+  }
+  footer{
+    text-align: left;
   }
 }
-@media only screen and (min-width: 1150px) {
-  /*body{background-color: olive}*/
-  .logo-ciup{
-    max-width: 260px;
-  }
-  .main-menu{
-    margin: 25px 0 0;
-  }
-  .menu ul li a{
-    padding: 5px 15px;
-  }
-  /*Nosotros*/
-  .header-nosotros{
-    display: block;
-  }
-  .content-nosotros{
-    margin:-100px auto;
-    width: 95%;
-  }
-  .content-nosotros .tabs{
-    margin-top: -70px;
-  }
-  .box-mision-vision{
-    margin: 70px 5px 5px 5px;
-    padding: 0 1.5em;
-  }
-  .box-area{
-    margin-bottom: 1em;
-  }
-  .box-area:hover .box-text-areas{
-    top: 0;
-    height:100%;
-  }
-}
+
 @media only screen and (min-width: 1200px) {
-  /*body{background-color: peru}*/
+  body{background-color: peru}
   .logo-ciup{
     max-width: 260px;
   }
@@ -200,6 +198,16 @@
   }
   .box-img-libros{
     max-height: 270px;
+  }
+  .box-primary h1{
+    font-size: 2.375em;
+  }
+
+  .box-secondary h2{
+    font-size: 1.5em;
+  }
+  .box-small h3{
+    font-size: 1.3em;
   }
    /*Nosotros*/
   .header-nosotros{
@@ -220,11 +228,14 @@
     margin-bottom: 1em;
   }
   .box-area:hover .box-text-areas{
-    top: 0;
+    top: 50px;
     height:100%;
   }
   .box-img{
     height: 220px;
+  }
+  footer{
+    text-align: left;
   }
 }
 
