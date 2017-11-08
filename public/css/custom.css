@@ -1,6 +1,6 @@
-*{
+/**[not]{
 	transition: all 0.3s ease-in-out;
-}
+}*/
 
 body,
 html{
@@ -38,6 +38,12 @@ Texto títulos rgba(0,25,43,1);
 	margin: 0 auto;	
 }
 /*Clases generales*/
+.header-investigadores .col,
+.header-nosotros .col,
+.header-investigadores .col{
+	margin:0;
+	padding: 0;
+}
 .historia{
 	font-family: 'Roboto', sans-serif;
 
@@ -1083,6 +1089,7 @@ footer ul li a:hover{
 	min-height: 300px;
 	max-height: 301px;
 }
+
 .header-investigadores img{
 	width: 100%;
 	height: auto;
@@ -1447,4 +1454,59 @@ footer ul li a:hover{
 }
 .informacion-evento span a {
 	margin-left: 20px;
+}
+
+
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  position: fixed;
+  bottom: 100px;
+  right: 10px;
+  z-index: 10;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  /* image replacement properties */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: rgba(65, 64, 96, 0.8) url(../img/cd-top-arrow.svg) no-repeat center 50%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+}
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s;
+}
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
+}
+.no-touch .cd-top:hover {
+  background-color: #414060;
+  opacity: 1;
+}
+@media only screen and (min-width: 768px) {
+  .cd-top {
+    right: 20px;
+    bottom: 20px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .cd-top {
+	height: 50px;
+    width: 50px;
+    right: 10px;
+    bottom: 50px;
+  }
 }

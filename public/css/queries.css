@@ -1,5 +1,5 @@
-@media only screen and (min-width: 321px) and (max-width: 479px){
-  body{background-color: green}
+@media only screen and (max-width: 320px){
+/*  body{background-color: green}*/
   .title-primary{
     font-size: 2.8em;
   }
@@ -66,22 +66,139 @@
   }
   .title-primary:after {
     top: 13px;
-
+  }
+  .header-investigadores{
+    max-height: 200px;
+    min-height: 220px;
+  }
+  .info-investigador{
+    background-color: rgba(65,64,96,1);
+    width: 100%;
+    height: 100%;
+    top: 35%;
+    padding: 0.5em;
+    text-align: center;;
+  }
+  .info-investigador h1{
+    font-size: 1.5em;
+    width: 100%;
+    padding: 0em;
+    margin: 0.5em 0;
+  }
+  .info-investigador h1:after{
+    display: none;
+  }
+  .icon-inv-imprimir, .icon-inv-facebook, .icon-inv-twitter, .icon-inv-gmail, .icon-inv-linkedin{
+    margin:0 5px;
+  }
+  .content-footer-publicaciones div,
+  .content-footer-publicaciones .footer-redes-publication{
+    text-align: center;
+    margin: 7px 0;
+  }
 }
-<<<<<<< HEAD
-@media only screen and (min-width: 420px) {
-  body{background-color: yellow}
+@media only screen and (min-width: 321px) and (max-width: 479px){
+  /*body{background-color: green}*/
+  .title-primary{
+    font-size: 2.8em;
+  }
+  .logo-ciup{
+    max-width: 100%;
+  }
+  .brand-ciup{
+    margin:20px 0 10px 0;
+    text-align: left;
+  }
+  .main-menu{
+    margin: 0;
+  }
+  .button-collapse{
+    top: 50px
+  }
+  .box-primary h1{
+    font-size: 1.8em;
+  }
+
+  .box-secondary h2{
+    font-size: 1.3em;
+  }
+  .box-small h3{
+    font-size: 1em;
+  }
+  .box-general{
+    margin:0 0 1em 0;
+  }
+  .box-news{
+    margin-bottom: 0.5em;
+  }
+  footer{
+    text-align: center;
+  }
+
+  /*Nosotros*/
+  .header-nosotros{
+    display: none;
+  }
+  .content-nosotros{
+    margin:0 auto;
+    width: 95%;
+  }
+  .content-nosotros .tabs{
+    margin-top: 30px;
+  }
+  .box-mision-vision{
+    margin: 70px 5px 5px 5px;
+    padding: 0 0.5em;
+  }
+  .box-area{
+    margin-bottom: 1em;
+  }
+  .box-area:hover .box-text-areas{
+    top: 0;
+    height:100%;
+  }
+  .contacto, .correo, .direccion, .correo-investigador {
+      width: auto;
+  }
   .title-primary {
     margin: 40px 0 25px 0;
   }
   .title-primary:after {
     top: 13px;
+  }
+  .header-investigadores{
+    max-height: 200px;
+    min-height: 220px;
+  }
+  .info-investigador{
+    background-color: rgba(65,64,96,1);
+    width: 100%;
+    height: 100%;
+    top: 35%;
+    padding: 0.5em;
+    text-align: center;;
+  }
+  .info-investigador h1{
+    font-size: 1.5em;
+    width: 100%;
+    padding: 0em;
+    margin: 0.5em 0;
+  }
+  .info-investigador h1:after{
+    display: none;
+  }
+  .icon-inv-imprimir, .icon-inv-facebook, .icon-inv-twitter, .icon-inv-gmail, .icon-inv-linkedin{
+    margin:0 5px;
+  }
+  .content-footer-publicaciones div,
+  .content-footer-publicaciones .footer-redes-publication{
+    text-align: center;
+    margin: 7px 0;
+  }
 }
-@media only screen and (min-width: 480px) {
-=======
+
 @media only screen and (min-width: 480px) and (max-width: 599px){
->>>>>>> f5c16b1457071eee9ed4da5eee1c9a97418d55a9
-  body{background-color: red;}
+  /*body{background-color: red;}*/
   .logo-ciup{
     max-width: 100%;
   }
@@ -115,9 +232,30 @@
   .contacto, .correo, .direccion, .correo-investigador {
       width: auto;
   }
+  .header-investigadores{
+    max-height: 200px;
+    min-height: 220px;
+  }
+  .info-investigador{
+    background-color: rgba(65,64,96,1);
+    width: 100%;
+    height: 100%;
+    top: 40%;
+  }
+  .info-investigador h1{
+    font-size: 1.8em;
+    width: 85%;
+    padding: 0em;
+    margin: 0.5em 0;
+  }
+  .content-footer-publicaciones div,
+  .content-footer-publicaciones .footer-redes-publication{
+    text-align: 7nter;
+    margin: 7px 0;
+  }
 }
 @media only screen and (min-width: 600px) and (max-width: 689px){
-  body{background-color: orange}
+  /*body{background-color: orange}*/
   .logo-ciup{
     width: 100%;
   }
@@ -144,18 +282,48 @@
   .title-primary {
     margin: 70px 0 25px 0;
   }
+
+  .header-investigadores{
+    max-height: 320px;
+    min-height: 300px;
+  }
+  .info-investigador{
+    background-color: rgba(65,64,96,1);
+    width: 100%;
+    height: 100%;
+    top: 40%;
+  }
+  .info-investigador h1{
+    font-size: 1.8em;
+    width: 85%;
+  }
 }
 @media only screen and (min-width: 690px) and (max-width: 809px){
-  body{background-color: purple}
-
+  /*body{background-color: purple}*/
+  .button-collapse{
+    top: 30px;
+  }
   footer{
     text-align: left;
+  }
+  .header-investigadores{
+    max-height: 180px;
+    min-height: 180px;
+  }
+  .info-investigador{
+    background-color: rgba(65,64,96,1);
+    width: 70%;
+    height: 100%;
+  }
+  .info-investigador h1{
+    font-size: 2em;
+    width: 85%;
   }
 }
 
 
 @media only screen and (min-width: 810px) and (max-width: 899px){
-  body{background-color: maroon}
+  /*body{background-color: maroon}*/
   .logo-ciup{
     max-width: 100%;
   }
@@ -183,7 +351,7 @@
   }
 }
 @media only screen and (min-width: 900px) and (max-width: 1199px){
-  body{background-color: skyblue}
+  /*body{background-color: skyblue}*/
   .logo-ciup{
     max-width: 260px;
   }
@@ -247,7 +415,7 @@
 }
 
 @media only screen and (min-width: 1200px){
-  body{background-color: peru}
+  /*body{background-color: peru}*/
   .logo-ciup{
     max-width: 260px;
   }
@@ -321,7 +489,7 @@
   }
   .info-investigador h1{
     color: #ffffff;
-    font-size: 3.750em;
+    font-size: 3.2em;
     width: 85%;
   }
   .info-investigador h1:after{
