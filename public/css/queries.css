@@ -68,19 +68,8 @@
     top: 13px;
 
 }
-<<<<<<< HEAD
-@media only screen and (min-width: 420px) {
-  body{background-color: yellow}
-  .title-primary {
-    margin: 40px 0 25px 0;
-  }
-  .title-primary:after {
-    top: 13px;
-}
-@media only screen and (min-width: 480px) {
-=======
+
 @media only screen and (min-width: 480px) and (max-width: 599px){
->>>>>>> f5c16b1457071eee9ed4da5eee1c9a97418d55a9
   body{background-color: red;}
   .logo-ciup{
     max-width: 100%;
