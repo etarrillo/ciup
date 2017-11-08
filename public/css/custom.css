@@ -74,7 +74,7 @@ Texto títulos rgba(0,25,43,1);
 	color: rgba(0,25,43,1);
 	font-family: 'allerbold';
 	font-size:3.750em;
-	margin: 120px 0 70px 0;
+	margin: 100px 0 50px 0;
 }
 	.title-primary:after{
 		content: '';
@@ -85,7 +85,7 @@ Texto títulos rgba(0,25,43,1);
 		max-width: 90px;
 		display: block;
 		position: relative;
-		top: 30px;
+		top: 20px;
 	}
 
 .title-secondary{
@@ -106,9 +106,10 @@ Texto títulos rgba(0,25,43,1);
 	box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.1);
 	transition:all 0.1s ease-in-out;
 	max-width: 1000px;	
+	color: #484858;
 }
 .box-general:hover{
-	background-color: rgba(245,243,250,0.8);
+	/*background-color: rgba(245,243,250,0.8);*/
 	box-shadow: 0px 10px 30px 2px rgba(0,0,0,0.15)
 }
 
@@ -121,7 +122,7 @@ Texto títulos rgba(0,25,43,1);
 	transition: all 0.2s ease-in-out;
 }
 .box-general a:hover h3{
-	color: rgba(92,135,186,0.8);
+	color: #2b5b95;;
 }
 
 .name-investigador h4{
@@ -215,7 +216,8 @@ Texto títulos rgba(0,25,43,1);
 }
 .link-more a:hover{
 	display: inline-block;
-	color: rgba(65,64,96,0.8);
+	color: #2b5b95;
+    font-weight: 500;
 }
 .link-more a i{
 	position: relative;
@@ -400,6 +402,9 @@ footer ul li a, footer p{
 	font-size: 1em;
 	line-height: 28px;
 }
+footer ul li a:hover{
+	color: rgba(65,64,96,1);
+}
 .contacto, .correo, .direccion, .correo-investigador {
 	width: 100%;
     height: 25px;
@@ -479,7 +484,7 @@ footer ul li a, footer p{
     transition:all 0.3s ease-in-out;
 }
 .suscripcion button:hover {
-    background-color: #b5c387;
+    background-color: #9aaa64;
 }
 .suscripcion button i{
 	position: relative;
