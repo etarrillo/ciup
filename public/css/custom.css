@@ -555,6 +555,9 @@ footer ul li a, footer p{
 	background-color: #ffffff;
 	padding: 10px;
 }
+.box-user-ciup .bio-user a p{
+	color: #484858;
+}
 .box-user-ciup .bio-user p{
 	font-size: 12px;
 	margin: 0;

@@ -87,7 +87,6 @@
   /*Fin investigadores*/
 }
 @media only screen and (min-width: 690px) {
-<<<<<<< HEAD
   body{background-color: purple}
   /*investigadores*/
   /*fin investigadores*/
@@ -96,13 +95,8 @@
   body{background-color: blue}
   /*investigadores*/
   /*fin investigadores*/
-=======
-  /*body{background-color: purple}*/
 }
-@media only screen and (min-width: 780px) {
-  /*body{background-color: blue}*/
->>>>>>> c346da0225a7c1027262e5e4afb05a6b6054b816
-}
+
 @media only screen and (min-width: 810px) {
   /*body{background-color: maroon}*/
   .logo-ciup{
@@ -113,8 +107,7 @@
   }
   .box-img-libros{
     max-height: 270px;
-  }
-  
+  }  
 }
 @media only screen and (min-width: 900px) {
   /*body{background-color: skyblue}*/
