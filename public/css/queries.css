@@ -1,5 +1,5 @@
 @media only screen and (min-width: 321px) and (max-width: 479px){
-  body{background-color: green}
+  /*body{background-color: green}*/
   .title-primary{
     font-size: 2.8em;
   }
@@ -121,7 +121,7 @@
 }
 
 @media only screen and (min-width: 480px) and (max-width: 599px){
-  body{background-color: red;}
+  /*body{background-color: red;}*/
   .logo-ciup{
     max-width: 100%;
   }
@@ -213,7 +213,7 @@
   }
 }
 @media only screen and (min-width: 600px) and (max-width: 689px){
-  body{background-color: orange}
+  /*body{background-color: orange}*/
   .logo-ciup{
     width: 100%;
   }
@@ -297,7 +297,7 @@
   }
 }
 @media only screen and (min-width: 690px) and (max-width: 809px){
-  body{background-color: purple}
+  /*body{background-color: purple}*/
 
   footer{
     text-align: left;
@@ -365,7 +365,7 @@
 
 
 @media only screen and (min-width: 810px) and (max-width: 899px){
-  body{background-color: maroon}
+  /*body{background-color: maroon}*/
   .logo-ciup{
     max-width: 100%;
   }
@@ -449,7 +449,7 @@
   }
 }
 @media only screen and (min-width: 900px) and (max-width: 1199px){
-  body{background-color: skyblue}
+  /*body{background-color: skyblue}*/
   .logo-ciup{
     max-width: 260px;
   }
@@ -530,7 +530,7 @@
 }
 
 @media only screen and (min-width: 1200px){
-  body{background-color: peru}
+  /*body{background-color: peru}*/
   .logo-ciup{
     max-width: 260px;
   }
