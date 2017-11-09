@@ -50,7 +50,7 @@
 							<li><a href="03-iniciativas.html">Iniciativas</a></li>
 							<li><a href="07-eventos.html">Eventos</a></li>
 							<li class="right">
-								<a href="#">
+								<a href="#modal-search-ciup" class="modal-trigger">
 									<i class="material-icons">search</i>
 								</a>
 							</li>
@@ -406,57 +406,65 @@
 		<div>
 			<div class="row">
 				<div class="col s6 m3 l3">
-					<h5>Menú</h5>
-					<ul>
-						<li><a href="01-nosotros.html"">Nosotros</a></li>
+					<div class="box-footer">
+						<h5>Menú</h5>
+						<ul>
+							<li><a href="01-nosotros.html"">Nosotros</a></li>
 							<li><a href="02-publicaciones_resultados.html">Publicaciones</a></li>
 							<li><a href="03-investigadores1.html">Investigadores</a></li>
 							<li><a href="04-proyectos.html">Proyectos</a></li>
 							<li><a href="05-noticias.html">Noticias</a></li>
 							<li><a href="03-iniciativas.html">Iniciativas</a></li>
 							<li><a href="07-eventos.html">Eventos</a></li>
-					</ul>
-				</div>
-				<div class="col s6 m3 l3">
-					<h5>Más Leídos</h5>
-					<ul>
-						<li><a href="#">Economía</a></li>
-						<li><a href="#">Educacións</a></li>
-						<li><a href="#">Políticas Sociales</a></li>
-					</ul>					
-				</div>
-				<div class="col s12 m3 l3">
-					<h5>Contacto</h5>
-					<ul>
-						<li><span class="contacto">(51)1 2190100 Anexo 2103</span></li>
-						<li><span class="correo">comunicacionesciup@up.edu.pe</span></li>
-						<li>
-							<span  class="direccion">
-								<span>Universidad del Pacifico - Pabellon I </span>
-								<span>Jr. Gral Sánchez Cerro 2050 </span>
-								<span>Jesús María - Lima Perú</span>
-							</span>
-						</li>
-					</ul>
-				</div>
-				<div class="col s12 m3 l3">
-					<h5>Suscríbete</h5>
-					<p>Deseas estar siempre informado acerca del CIUP</p>
-					
-					<div class="suscripcion">
-						<input placeholder="email@correo.com" type="text">
-						<button>
-							<i class="material-icons">keyboard_arrow_right</i>
-						</button>
-					</div>
-
-					<div>
-						<ul class="redes center-align">
-							<li><a href="#" class="facebook"></a></li>
-							<li><a href="#" class="twitter"></a></li>
-							<li><a href="#" class="gmail"></a></li>
-							<li><a href="#" class="linkedin"></a></li>
 						</ul>
+					</div>
+				</div>
+				<div class="col s6 m4 l3">
+					<div class="box-footer">
+						<h5>Más Leídos</h5>
+						<ul>
+							<li><a href="#">Economía</a></li>
+							<li><a href="#">Educacións</a></li>
+							<li><a href="#">Políticas Sociales</a></li>
+						</ul>
+					</div>		
+				</div>
+				<div class="col s12 m5 l3">
+					<div class="box-footer">
+						<h5>Contacto</h5>
+						<ul>
+							<li><span class="contacto">(51)1 2190100 Anexo 2103</span></li>
+							<li><span class="correo"><a href="mailto:comunicacionesciup@up.edu.pe">comunicacionesciup@up.edu.pe</a></span></li>
+							<li>
+								<span  class="direccion">
+									<span>Universidad del Pacifico - Pabellon I </span>
+									<span>Jr. Gral Sánchez Cerro 2050 </span>
+									<span>Jesús María - Lima Perú</span>
+								</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col s12 offset-m3 m6 l3">
+					<div class="box-footer">
+						<h5>Suscríbete</h5>
+						<p>Deseas estar siempre informado acerca del CIUP</p>
+						
+						<div class="suscripcion">
+							<input placeholder="email@correo.com" type="text">
+							<button>
+								<i class="material-icons">keyboard_arrow_right</i>
+							</button>
+						</div>
+
+						<div>
+							<ul class="redes center-align">
+								<li><a href="#" class="facebook"></a></li>
+								<li><a href="#" class="twitter"></a></li>
+								<li><a href="#" class="gmail"></a></li>
+								<li><a href="#" class="linkedin"></a></li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -478,6 +486,61 @@
 			</div>
 		</div>
 	</footer>
+
+	<div class="box-search">
+		<div id="modal-search-ciup" class="modal modal-search-ciup">
+			<a href="#!" class="modal-action modal-close modal-close-btn">
+				<i class="material-icons">close</i>
+			</a>
+			<div class="modal-content-ciup">
+				<div class="wrap-content-form">
+					<div class="suscripcion row">
+						<input type="text" placeholder="Buscar...">
+						<button>
+							<i class="material-icons">keyboard_arrow_right</i>
+						</button>
+					</div>
+					<div class="row">
+						<div class="col s12 m6 l3">
+							<select name="" id="">
+								<option value="" disabled selected>Por tipo</option>
+								<option value="">awe</option>
+								<option value="">awe</option>
+								<option value="">awe</option>
+							</select>
+						</div>
+						<div class="col s12 m6 l3">
+							<select name="" id="">
+								<option value="" disabled selected>Por área de investigación</option>
+								<option value="">awe</option>
+								<option value="">awe</option>
+								<option value="">awe</option>
+							</select>
+						</div>
+						<div class="col s12 m6 l3">
+							<select name="" id="">
+								<option value="" disabled selected>Por especialista</option>
+								<option value="">awe</option>
+								<option value="">awe</option>
+								<option value="">awe</option>
+							</select>
+						</div>
+						<div class="col s12 m6 l3">
+							<select name="" id="">
+								<option value="" disabled selected>Por tema</option>
+								<option value="">awe</option>
+								<option value="">awe</option>
+								<option value="">awe</option>
+							</select>
+						</div>
+						<div class="col s12 m12 l12">
+							<input type="button" value="Buscar">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<a href="#0" class="cd-top">Top</a>
 
