@@ -21,6 +21,7 @@ html{
 	/*outline: 1px solid #999999;*/
 }
 
+
 /*Colores*/
 /*
 Texto títulos rgba(0,25,43,1);
@@ -597,7 +598,7 @@ footer ul li a:hover{
 .box-user-ciup .bio-user p{
 	font-size: 12px;
 	margin: 0;
-
+	color: #484858;
 	display: -webkit-box;
     -webkit-line-clamp: 10;
     -webkit-box-orient: vertical;
@@ -960,7 +961,8 @@ footer ul li a:hover{
 	display: block;
 	margin: 1em auto 0 auto;
 }
-.autor-publication h2{
+.autor-publication h2,
+.autor-publication a{
 	color: #7d7d7d;
 	font-size: 1.125em;
 	font-family: 'Roboto', sans-serif;
@@ -1658,4 +1660,18 @@ footer ul li a:hover{
 #form.fixed{
 	position:fixed;
 	top:0
+}
+
+.temas-box-list{}
+.temas-box-list a{
+    line-height: 1.2em;
+    font-size: 1.250em;
+    color: rgba(92,135,186,1);
+    margin: 0.3em 0 0.3em 0;
+    transition: all 0.2s ease-in-out;
+}
+.temas-box-list span{
+	font-size: 0.8em;
+	color: #474747;
+	display: block;
 }
