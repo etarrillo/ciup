@@ -1,2 +1,0 @@
-# ciup
-Web CIUP maquetación

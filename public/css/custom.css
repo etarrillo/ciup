@@ -1675,3 +1675,23 @@ footer ul li a:hover{
 	color: #474747;
 	display: block;
 }
+
+.error-404 .input-field label{
+	top:-5px;
+}
+
+.error-404{}
+.error-404 h2{
+    text-align: left;
+    color: rgba(0,25,43,1);
+    font-family: 'allerbold';
+    font-size: 3.750em;
+    margin: 100px 0 50px 0;
+}
+.error-404 p{
+    text-align: left;
+    color: rgba(0,25,43,1);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+.error-404 img{}

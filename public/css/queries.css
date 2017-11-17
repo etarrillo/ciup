@@ -741,7 +741,7 @@
     display: block;
   }
   .content-nosotros{
-    margin:-100px auto;
+    margin:-100px auto 0;
     width: 95%;
   }
   .content-nosotros .tabs{
