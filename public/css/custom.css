@@ -1695,3 +1695,59 @@ footer ul li a:hover{
     font-size: 1em;
 }
 .error-404 img{}
+
+/*Sticky header*/
+
+.header-wrapper {
+	-webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.sticky-header {
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  position: static;
+  top: -100px;
+  padding: 10px;
+}
+.sticky-header.sticky {
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.sticky-header.sticky .row{
+	margin-bottom: 0;
+	-webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.sticky-header.sticky img{
+	width: 150px
+	-webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.sticky-header.sticky .bar-themes{
+	display: none;
+}
+.sticky-header.sticky .brand-ciup{
+	margin: 0;
+	-webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.sticky-header.sticky .main-menu{
+	margin-top: 10px;
+	-webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+}

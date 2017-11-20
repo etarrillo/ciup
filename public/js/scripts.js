@@ -33,5 +33,16 @@ $back_to_top.on('click', function(event){
 });
 
 
-
+if ($('.sticky-header').length >= 1) {
+  $(window).scroll(function() {
+    var header = $(document).scrollTop();
+    var headerHeight = $('.header-wrapper').height();
+    if (header > headerHeight) {
+      $('.sticky-header').addClass('sticky');
+      $('.sticky-header').fadeIn();
+    } else {
+      $('.sticky-header').removeClass('sticky');
+    }
+  });
+}
 
