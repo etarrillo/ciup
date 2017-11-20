@@ -772,7 +772,9 @@ footer ul li a:hover{
 	display: block;
 	position: absolute;
 	bottom: 10px;
-	right: 15px; 
+	right: 15px;
+	overflow: hidden;
+	font-size: 0.750em;
 }
 .icon-articulo-academico:after{
  	background-position: -1px -92px;
@@ -792,6 +794,55 @@ footer ul li a:hover{
 .icon-evento:after{
 	background-position: -1px -152px;
 }
+
+/*Iconos*/
+.icon-articulo-academico:hover:after,
+.icon-nota:hover:after, 
+.icon-libro:hover:after,
+.icon-doc-discusion:hover:after, 
+.icon-medio:hover:after,
+.icon-evento:hover:after {
+	color: #8682bd;
+    font-size: 0.750em;
+    line-height: 1.125em;
+    background-image: none;
+    width: 70px;
+    bottom: 8px;
+    text-align: right;
+}
+
+.icon-doc-discusion:hover:after {
+	content: "Documento de discusión";
+}
+.icon-articulo-academico:hover:after {
+	content: "Artículo académico";
+}
+.icon-nota:hover:after {
+	content: "Noticia";
+	bottom: 0px;
+}
+.icon-libro:hover:after {
+	content: "Libro";
+	bottom: 0px;
+}
+.icon-medio:hover:after {
+	content: "Medio";
+	bottom: 0px;
+}
+.icon-evento:hover:after {
+	content: "Evento";
+	bottom: 0px;
+}
+
+.box-news.icon-articulo-academico:hover:after,
+.box-news.icon-nota:hover:after,
+.box-news.icon-libro:hover:after,
+.box-news.icon-doc-discusion:hover:after,
+.box-news.icon-medio:hover:after,
+.box-news.icon-evento:hover:after {
+	color: rgba(72, 72, 88, 0.7);
+}
+
 
 /*Publicaciones*/
 .icon-pub-facebook, .icon-pub-twitter, .icon-pub-gmail, .icon-pub-linkedin {
@@ -1696,6 +1747,7 @@ footer ul li a:hover{
 }
 .error-404 img{}
 
+<<<<<<< HEAD
 /*Sticky header*/
 
 .header-wrapper {
@@ -1751,3 +1803,6 @@ footer ul li a:hover{
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
 }
+=======
+
+>>>>>>> 26bf4d9edba7a05266bc9c9d86257791d219fe9b
