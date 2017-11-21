@@ -68,5 +68,25 @@ $(function () {
   })
 })
 
+$(".datepicker").pickadate({
+    selectMonths: true,
+    selectYears: 15,
+    format: "dd/mm/yyyy",
 
+    monthsFull: ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"],
+    monthsShort: ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"],
+    weekdaysFull: ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"],
+    weekdaysShort: ["Dom", "Lun", "Mar", "Mie", "Jue", "Vie", "Sab"],
+    showMonthsShort: undefined,
+    showWeekdaysFull: undefined,
+
+    today: "Hoy",
+    clear: "Limpiar",
+    close: "OK",
+
+    labelMonthNext: "Mes siguiente",
+    labelMonthPrev: "Mes anterior",
+    labelMonthSelect: "Seleccionar un mes",
+    labelYearSelect: "Seleccionar un año"
+});
 
