@@ -1990,6 +1990,9 @@ footer ul li a:hover{
 .picker__day--infocus:hover {
     font-weight: bold;
 }
+.picker__day--selected {
+	color: #fff;
+}
 .picker__day--selected, .picker__day--selected:hover, 
 .picker--focused .picker__day--selected {
 	background-color: rgba(65,64,96,0.8);
@@ -1999,7 +2002,22 @@ footer ul li a:hover{
 	color: #474747;
     font-family: allerregular;
 }
-
+.picker__nav--prev:hover, 
+.picker__nav--next:hover,
+button.picker__today:focus, 
+button.picker__close:focus {
+	background-color: rgba(88,86,153,0.2);
+}
+.picker__close, .picker__today {
+	color: rgba(65,64,96,1);
+    font-weight: bold;
+}
+.picker__clear {
+	color: #F78181;
+}
+button.picker__clear:focus {
+	background-color: #FBEFEF;
+}
 .box-date-ciup{
 	position: relative;
 	margin-bottom: 10px;
