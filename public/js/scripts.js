@@ -1,11 +1,20 @@
 $('.button-collapse').sideNav({
-menuWidth: "80%", // Default is 300
-edge: 'left', // Choose the horizontal origin
-closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
-draggable: true
+  menuWidth: "80%", // Default is 300
+  edge: 'left', // Choose the horizontal origin
+  closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+  draggable: true
 });
+
+$('.button-collapse-filter').sideNav({
+  menuWidth: "80%",
+  edge: 'left'
+
+});
+
 $('select').material_select();
 $('.modal').modal();
+$('.collapsible').collapsible();
+
 // browser window scroll (in pixels) after which the "back to top" link is shown
 var offset = 300,
 //browser window scroll (in pixels) after which the "back to top" link opacity is reduced
@@ -45,4 +54,19 @@ if ($('.sticky-header').length >= 1) {
     }
   });
 }
+
+/*Toggle*/
+// $(".btn-canvas.btn-filtros" ).click(function() {
+//   $(this).addClass('active')
+//   $('#slide-results').slideToggle( "slow" );
+// });
+
+$(function () {
+  'use strict'
+  $('[data-toggle="offcanvas"]').on('click', function () {
+    $('.row-offcanvas').toggleClass('active')
+  })
+})
+
+
 
