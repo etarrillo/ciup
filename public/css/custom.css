@@ -2018,6 +2018,14 @@ button.picker__close:focus {
 button.picker__clear:focus {
 	background-color: #FBEFEF;
 }
+.picker__select--month.browser-default option:checked,
+.picker__select--year.browser-default option:checked {
+	background-color: rgba(88,86,153,0.2);
+}
+select.picker__select--month.browser-default option:hover, 
+select.picker__select--year.browser-default option:hover {
+	background-color: rgba(65,64,96,0.8);
+}
 .box-date-ciup{
 	position: relative;
 	margin-bottom: 10px;
@@ -2027,7 +2035,7 @@ button.picker__clear:focus {
     position: absolute;
     right: -10px;
     top: 5px;
-    color: rgba(65,64,96,0.7);
+    color: rgba(65,64,96,0.5);
 }
 .btn-filtros-resultados i {
 	font-size: 16px;
@@ -2036,4 +2044,8 @@ button.picker__clear:focus {
     height: 11px;
     line-height: 5px;
     padding-left: 5px;
+}
+.btn-filtros-resultados label {
+	color: rgb(118, 135, 186);
+	font-size: 0.95em;
 }
