@@ -981,7 +981,7 @@ footer ul li a:hover{
 .input-search button i{
 	color: #5880af;
 	font-size: 2em;
-	line-height: 1.5em;
+	line-height: 2.3em;
 }
 .input-search button:hover i{
 	opacity: 0.9;
@@ -1854,6 +1854,9 @@ footer ul li a:hover{
 	color: #474747;
 	font-size: 0.9em;
 }
+[type="checkbox"].filled-in:not(:checked)+label:after {
+	border: 1px solid #c2cfd6;
+}
 
 /*Materialize*/
 .collapsible{
@@ -1969,7 +1972,7 @@ footer ul li a:hover{
 	margin:20px 0;
 }
 .filter-calendar input.datepicker {
-	border: 1px solid #474747;
+	border: 1px solid #c2cfd6;
     height: 2rem;
     margin: 0;
     padding: 0 5px;
@@ -2036,7 +2039,7 @@ select.picker__select--year.browser-default option:hover {
     position: absolute;
     right: -10px;
     top: 5px;
-    color: rgba(65,64,96,0.5);
+    color: rgba(65,64,96,0.7);
 }
 .btn-filtros-resultados i {
 	font-size: 16px;
