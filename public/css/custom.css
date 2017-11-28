@@ -1854,8 +1854,12 @@ footer ul li a:hover{
 	color: #474747;
 	font-size: 0.9em;
 }
-[type="checkbox"].filled-in:not(:checked)+label:after {
+.box-filter .body-filter [type="checkbox"].filled-in:not(:checked)+label:after {
 	border: 1px solid #c2cfd6;
+}
+.box-filter .body-filter [type="checkbox"].filled-in:checked+label:after {
+	border: 2px solid rgba(65,64,96,1);
+    background-color: rgba(65,64,96,1);
 }
 
 /*Materialize*/
