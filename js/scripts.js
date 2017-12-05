@@ -13,7 +13,11 @@ $('.button-collapse-filter').sideNav({
 
 $('select').material_select();
 $('#modal-search-ciup').modal();
-$('#modal-results-ciup').modal();
+$('#modal-results-ciup').modal({
+  dismissible: true,
+  opacity: .5
+});
+
 $('.collapsible').collapsible();
 
 // browser window scroll (in pixels) after which the "back to top" link is shown
