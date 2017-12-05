@@ -477,7 +477,7 @@ footer ul li a:hover{
     padding: 0px 20px;
     border: 1px solid #e6e9ed;
     position: relative;
-    width: 96%;
+    width: 90%;
     margin: 0 auto;
 }
 .suscripcion button {
@@ -632,7 +632,10 @@ footer ul li a:hover{
 .box-user-ponentes h2{
 	color: #414060;
 	font-size: 0.875em;
-	    font-weight: bold;
+    font-weight: bold;
+    padding:0.25em 0;
+    margin:0.25em 0;
+    line-height: 1.5em;
 }
 .box-user-ciup .date-user-ciup h3{
 	color: #7f7f7f;
@@ -958,6 +961,7 @@ footer ul li a:hover{
 	position: relative;
 }
 .input-search input[type=text]:not(.browser-default){
+	width: 100%;
 	border:1px solid #d0d7de;
 	color: #d0d7de;
 	border-radius: 0.3em;
@@ -1604,6 +1608,8 @@ footer ul li a:hover{
 	right: 10px;
 	color:#5880af;
 	font-size: 1em;
+	position: absolute;
+	top: 9px;
 }
 .modal-content-ciup input.select-dropdown{
 	border: 1px solid #d0d7de;
@@ -2056,4 +2062,27 @@ select.picker__select--year.browser-default option:hover {
 .btn-filtros-resultados label {
 	color: rgb(118, 135, 186);
 	font-size: 0.95em;
+}
+
+input[type=date],
+input[type=datetime-local],
+input[type=email],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=time],
+input[type=url],
+textarea.materialize-textarea{
+	height: 2.85rem;
+	line-height: 2.85rem;
+}
+
+select.initialized{
+	display: none;
+}
+
+#placeholder-overlay{
+	z-index: 1;
 }
