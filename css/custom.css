@@ -3,7 +3,12 @@ html{
 	background-color: #ffffff;
 	font-size: 16px;
 }
-
+body{
+	overflow:auto!important;
+}
+a:hover{
+	text-decoration:none;
+}
 ::-webkit-scrollbar {
     width: 0.5em;
     height: 5px;
@@ -24,7 +29,7 @@ html{
 
 /*Colores*/
 /*
-Texto títulos rgba(0,25,43,1);
+Texto tÃ­tulos rgba(0,25,43,1);
 */
 
 .color-purple-dark{
@@ -125,8 +130,11 @@ Texto títulos rgba(0,25,43,1);
 	margin: 0.3em 0 0.3em 0;
 	transition: all 0.2s ease-in-out;
 }
+.box-general a:hover{
+	text-decoration: none!important;
+}
 .box-general a:hover h3{
-	color: #2b5b95;;
+	color: #2b5b95;
 }
 
 .name-investigador h4{
@@ -184,19 +192,21 @@ Texto títulos rgba(0,25,43,1);
 	padding: 15px;
 	box-shadow: 0 0 3px rgba(0,0,0,0.1);
 }
-.box-primary h1 a, .box-secondary h2 a, .box-small h3 a{
-	color: #484858;
+.box-primary h1 a, .box-primary h2 a, .box-secondary h2 a, .box-small h3 a{
+	color: #484858 !important;
+	text-decoration: none;
 }
 
-.box-primary h1 a:hover, .box-secondary h2 a:hover, .box-small h3 a:hover{
-	color: rgba(88,86,153,1);
+.box-primary h1 a:hover, box-primary h2 a:hover, .box-secondary h2 a:hover, .box-small h3 a:hover{
+	color: rgba(88,86,153,1)!important;
+	text-decoration: none;
 }
 .box-secondary p {
 	color: #484858;
 	font-size: 0.875em;
 	line-height: 1.429em;
 }
-.box-primary h1{
+.box-primary h1, .box-primary h2{
 	font-size: 2.375em;
 	line-height: 1.211em;
 	margin: 5px 0 14px;
@@ -370,7 +380,7 @@ header {
 	filter: saturate(0.5);
 }
 .box-primary {
-	min-height: 220px;
+	min-height: 205px;
 }
 .box-secondary {
 	min-height: 346px;;
@@ -818,7 +828,7 @@ footer ul li a:hover{
 	content: "Documento de discusión";
 }
 .icon-articulo-academico:hover:after {
-	content: "Artículo académico";
+	content: "Artí­culo académico";
 }
 .icon-nota:hover:after {
 	content: "Noticia";
@@ -1007,6 +1017,7 @@ footer ul li a:hover{
 	font-family: 'allerbold';
 	color: #474747;
 	font-size: 2em;
+	line-height: 1.2em;
 	position: relative;
 }
 .title-publication h1:after{
@@ -1207,6 +1218,7 @@ footer ul li a:hover{
 	color: #ffffff;
 	font-family: 'allerregular';
 	font-size: 1.750em;
+	line-height: 1.2em;
 	text-align: center;
 }
 .box-content-data{
@@ -1575,13 +1587,17 @@ footer ul li a:hover{
 
 /*Modal*/
 
-.modal-search-ciup{
+.modal-search-ciup,
+.modal-results-ciup{
 	width: 100%;
 	max-height: 100%;
 	height: 100%;
 	top: 0%!important;
 	background-color: rgba(255,255,255,1);
 	overflow: hidden;
+}
+.modal-results-ciup{
+	overflow: auto;
 }
 .modal-content-ciup{
 	display: flex;
@@ -1590,6 +1606,17 @@ footer ul li a:hover{
 	justify-content: center;
 	height: 100%;
 	margin:0 auto;
+}
+.modal-results-ciup .modal-content-ciup{
+	padding: 2%;
+	display: block;
+}
+.modal-results-ciup .modal-content-ciup .header-publicaciones{
+	border-bottom: 3px solid rgba(198,190,216,0.4);
+}
+.modal-content-ciup .container-fluid{
+	border:1px solid #dddddd;
+	padding: 0.5em;
 }
 .modal-content-ciup input[type=text]{
     color: #d0d7de;
@@ -1682,6 +1709,36 @@ footer ul li a:hover{
     margin-top: 0.2em;
     background: #fafafa;
 }
+
+/*Fix-ellipsis proyectos*/
+
+/*.txt-ellipsis-proyect{
+	overflow: hidden;
+    position: relative;
+    line-height: 1.2em;
+    max-height: 2.6em;
+    margin-right: -1em;
+    padding-right: 1em;
+    outline:1px solid gray;
+}
+.txt-ellipsis-proyect:before {
+    content: '...';
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.txt-ellipsis-proyect:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 1em;
+    height: 1em;
+    margin-top: 0.2em;
+    background: #fafafa;
+}*/
+
+
+
 .box-news:hover .txt-ellipsis:after {
     background: #f3f4f6;
 }
@@ -1793,10 +1850,7 @@ footer ul li a:hover{
   -o-transition: 0.3s;
 }
 .sticky-header.sticky img{
-	width: 150px
-	-webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
+	width: 150px!important;
 }
 .sticky-header.sticky .bar-themes{
 	display: none;
@@ -2085,4 +2139,26 @@ select.initialized{
 
 #placeholder-overlay{
 	z-index: 1;
+}
+
+#s4-ribbonrow{z-index:2}
+
+.content-publicaciones img{
+	width:100%;
+	height:auto;
+}
+
+#s4-workspace .side-nav{
+	left:-100%;
+}
+.side-nav{
+	left:0;
+}
+
+.b{
+	/*height:340px;*/
+	margin-bottom:10px;
+}
+.b .gallery-header p{
+	width:96%;
 }
