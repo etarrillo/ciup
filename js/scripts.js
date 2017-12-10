@@ -13,11 +13,7 @@ $('.button-collapse-filter').sideNav({
 
 $('select').material_select();
 $('#modal-search-ciup').modal();
-$('#modal-results-ciup').modal({
-  dismissible: true,
-  opacity: .5
-});
-
+$('#modal-results-ciup').modal();
 $('.collapsible').collapsible();
 
 // browser window scroll (in pixels) after which the "back to top" link is shown
@@ -31,19 +27,19 @@ $back_to_top = $('.cd-top');
 
 //hide or show the "back to top" link
 $(window).scroll(function(){
-	( $(this).scrollTop() > offset ) ? $back_to_top.addClass('cd-is-visible') : $back_to_top.removeClass('cd-is-visible cd-fade-out');
-	if( $(this).scrollTop() > offset_opacity ) { 
-		$back_to_top.addClass('cd-fade-out');
-	}
+  ( $(this).scrollTop() > offset ) ? $back_to_top.addClass('cd-is-visible') : $back_to_top.removeClass('cd-is-visible cd-fade-out');
+  if( $(this).scrollTop() > offset_opacity ) { 
+    $back_to_top.addClass('cd-fade-out');
+  }
 });
 
 //smooth scroll to top
 $back_to_top.on('click', function(event){
-	event.preventDefault();
-	$('body,html').animate({
-		scrollTop: 0 ,
-	}, scroll_top_duration
-	);
+  event.preventDefault();
+  $('body,html').animate({
+    scrollTop: 0 ,
+  }, scroll_top_duration
+  );
 });
 
 
@@ -96,3 +92,23 @@ $(".datepicker").pickadate({
     labelYearSelect: "Seleccionar un año"
 });
 
+$(function(){
+  $('a.smoothScroll').smoothScroll({
+    offset: -80,      
+    scrollTarget: $(this).val()
+  });
+
+// Waypoints
+$('.investigador-box-section').waypoint(  
+  function(direction) {
+    if (direction ==='down') {            
+      var wayID = $(this).attr('id');            
+    } else {
+      var previous = $(this).prev();
+      var wayID = $(previous).attr('id');                    
+    }
+    $('.current').removeClass('current');
+    $('.menu-vertical-investigadores a[href=#'+wayID+']').addClass('current');
+  }, { offset: '40%' });
+});
+    
